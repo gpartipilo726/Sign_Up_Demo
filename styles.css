@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'norsebold';
+    src: url('Fonts/Norse Bold/norse-bold-webfont.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+img{
+    width: 600px;
+    height: 100%;
+}
+
+#logo{
+    /* position: relative; */
+    bottom: 600px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 12px;
+    font-size: 6rem;
+    font-family: norsebold;
+    font-weight: 900;
+    opacity: 1;
+}
+
+#title-container{
+    position: relative;
+    bottom: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.456);
+}
+
+
+#odin{
+    width: 90px;
+    height: 110px;
+
+}
+
+#footer{
+    text-align: center;
+    font-family:  arial, sans-serif;
+    font-size: .75rem;
+    position: fixed;
+    bottom: 0pt;
+    left: 12rem;
+    color: #fff;
+    padding: 0.7rem;
+}
+
+
+body {
+    display: flex;
+}
+
+#form-body{
+    height: 60%;
+    max-width: 100%;
+    margin-top: 100px;
+    font-size: 1.3rem;
+    font-family: arial, sans-serif;
+    font-weight: 800px;
+}
+
+#form-header{
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-content: center;
+    justify-content: center;
+}
+
+#form-header, #form-main{
+    padding: 0 3rem;
+
+}
+
+#form-main > h3{
+    margin-top: 5.75rem;
+    margin-bottom: 1.2rem;
+}
+
+.form-field{
+    display:flex;
+    flex-direction: column;
+    max-width: 400px;
+    font-size: .7rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.form-field > label{
+    text-transform: uppercase;
+}
+
+.form-container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    gap: 40px;
+    
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 4px;
+    border: 2px solid #E5E7EB;
+}
+
+input:focus{
+    border: 3px solid rgb(0, 98, 255);
+
+}
+
