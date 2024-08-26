@@ -30,9 +30,14 @@ img{
     opacity: 1;
 }
 
+#container{
+    max-width: 800px;
+}
+
 #title-container{
     position: relative;
     bottom: 800px;
+    max-width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,9 +54,10 @@ img{
 #footer{
     text-align: center;
     font-family:  arial, sans-serif;
+    font-weight: 400;
     font-size: .75rem;
     position: fixed;
-    bottom: 0pt;
+    bottom: 20px;
     left: 12rem;
     color: #fff;
     padding: 0.7rem;
@@ -64,25 +70,29 @@ body {
 
 #form-body{
     height: 60%;
+    width: 100%;
     max-width: 100%;
     margin-top: 100px;
     font-size: 1.3rem;
     font-family: arial, sans-serif;
-    font-weight: 800px;
+    font-weight: 800;
+
 }
+
 
 #form-header{
 
     display: flex;
     flex-direction: column;
     gap: 40px;
+    max-width: 840px;
     align-content: center;
     justify-content: center;
 }
 
 #form-header, #form-main{
-    padding: 0 3rem;
-
+    padding-left: 3rem;
+    padding-bottom: 3rem;
 }
 
 #form-main > h3{
@@ -109,7 +119,15 @@ body {
     flex-wrap: wrap;
     max-width: 600px;
     gap: 40px;
+    width: 900px;
+
+
     
+}
+
+#background{
+    box-shadow: 0px 5px 8px -2px #d4ddee; 
+    max-width: 800px;
 }
 
 input{
@@ -124,3 +142,26 @@ input:focus{
 
 }
 
+#submit{
+    margin: 2.5rem 3.4rem;
+    background-color: #596D48;
+    color: #fff;
+    border: 2px solid #596D48;
+    padding: 0.75rem 2.4rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+h4{
+    margin-left: 3.4rem;
+    font-size: 1.1rem;
+
+}
+
+h4 > a{
+    font-weight: 700;
+    font-size:  1.1rem;
+    color: #596D48;
+    
+}
